@@ -28,23 +28,98 @@ const items =[
 		<title>{title}</title>
 	</head>
 	<body>
-		<div class="bg-slate-950 h-24 flex content-center ">
-			<div class="h-12 flex items-center mt-3">
-				<img class="h-12 w-auto" src="../../public/aliecopy.webp" alt="">
-				<div class=" flex items-center relative">
-					<input class="flex items-center rounded-full pl-4 outline-none pr-15 h-9" type="text" placeholder="Buscar...">
+		<div class="bg-slate-950 h-[72px] w-full flex content-center">
+			<div class="p-4 h-12 flex items-center mt-3 ml-[165px]">
+				<img class="h-[64px] w-[208px]" src="../../public/aliecopy.webp" alt="">
+				<div class=" flex items-center relative mx-8 w-[650px]">
+					<input class="flex items-center rounded-full pl-4 outline-none pr-15 h-9 w-[1050px]" type="text" placeholder="Buscar...">
 					<div class="bg-slate-950 inline-block right-2 top-[2px] text-white rounded-2xl py-1 px-2 absolute"><Icon name="mdi:search" class="size-6"/></div>
 				</div>
 			</div>
-			<div class="h-12 flex items-center mt-3">
+			<div class="h-12 flex items-center mt-3 mx-4">
 						<div class="flex cursor-pointer">
-						<div class="flex items-center content-center w-[100px]">
-						<img class="text-white size-12"src="../../public/qri.svg" alt="">
-						<p class="text-xs w-[140px]  text-white flex items-center content-center">Descarga la app de Aliexpress</p>
+						<div class="flex items-center content-center w-[150px]">
+						<img class="text-white size-10"src="../../public/qri.svg" alt="">
+						<p class="text-xs  text-white flex items-center content-center">Descarga la app de Aliexpress</p>
 						</div>
 					</div>
 			</div>
+			<div class="flex items-center mx-4">
+				<div class="flex items-center content-center cursor-pointer">
+					<Icon name="circle-flags:co" class="size-6" />
+					<p class="text-white text-xs ml-2">ES<br>/COP</p>
+				</div>
+			</div>
+			<div class="flex items-center mx-4">
+				<div class="flex items-center content-center cursor-pointer">
+					<Icon name="prime:user" class="text-white size-10"/>
+					<p class="text-white text-xs">¡Bienvenido<br><span class="font-black">Identificate / Registrate</span></p>
+				</div>
+			</div>
+			<div class="flex items-center mx-4">
+				<div class="grid grid-rows-1 grid-cols-2 cursor-pointer">
+					<Icon name="icon-park-outline:shopping" class="text-white size-8 row-span-3 mt-2"/>
+					<div class="bg-white text-center rounded-2xl w-[36px] h-[20px] mt-[5px] ml-[5px]">
+						<div class="justify-center items-center "><span class=" font-black text-center text-xs ">0</span></div>
+						
+					</div>
+					<p class="text-white text-xs text-center ml-[5px] mt-1 font-black">Cesta</p>
+				</div>
+			</div>
 		</div>
+		<nav class="bg-slate-950 h-[60px] w-full">
+			<div class="flex justify-center items-center">
+				<ul class="flex text-white gap-8 mt-3 font-medium">
+					<div class="hover:bg-slate-800 rounded-2xl p-1 cursor-pointer border-slate-400 border-solid border-2 flex">
+						<img class="mr-1.5" src="../../public/menu.svg" alt="">
+						<span class="">Todas las categorias</span>
+					</div>
+					<li class="hover:bg-slate-800 rounded-2xl p-1 cursor-pointer">NN</li>
+					<li class="hover:bg-slate-800 rounded-2xl p-1 cursor-pointer">Superventas</li>
+					<li class="hover:bg-slate-800 rounded-2xl p-1 cursor-pointer">Mejores Marcas</li>
+					<li class="hover:bg-slate-800 rounded-2xl p-1 cursor-pointer">Hogar y jardin</li>
+					<li class="hover:bg-slate-800 rounded-2xl p-1 cursor-pointer">Cabello y Pelucas</li>
+					<li class="hover:bg-slate-800 rounded-2xl p-1 cursor-pointer">Moda Hombres</li>
+					<li class="hover:bg-slate-800 rounded-2xl p-1 cursor-pointer">Accesorios</li>
+					<li class="hover:bg-slate-800 rounded-2xl p-1 cursor-pointer">Electronica</li>
+					<li class="hover:bg-slate-800 rounded-2xl p-1 cursor-pointer">Mas</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="flex justify-center">
+			<img src="../../public/Sf3af48b690394a6ba6ba44f02b4eca37M.png_.webp" alt="" class="h-[84.2px]">
+		</div>
+		<section class="flex justify-center">
+			<div class="grid grid-cols-3 mt-6 justify-items-center gap-2 m-0">
+			<div class=" w-[272.16px]">
+					<div class="w-[272.16px] h-[170px] bg-zinc-200 rounded-2xl mt-4">
+						
+					</div>
+					<div class="w-[272.16px] h-[402.83px] bg-orange-100 rounded-2xl mt-4">
+						<div>
+
+						</div>
+						<div>
+
+						</div>
+					</div>
+			</div>
+			<div class="items-center">
+				<div class="w-[369.16px] h-[588.83px] bg-amber-100 rounded-2xl mt-4">
+					
+				</div>
+			</div>
+			<div class="items-center">
+				<div class="w-[460.17px] h-[287.83px] bg-zinc-200 rounded-2xl mt-4">
+
+				</div>
+				<div class="h-[287.83px] bg-zinc-200 rounded-2xl mt-4">
+
+				</div>
+			</div>
+		</div>
+		</section>
+
 	</body>
 </html>
 <style is:global>
